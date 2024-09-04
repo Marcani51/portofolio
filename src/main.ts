@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import './assets/css/style.css'
 import 'virtual:svg-icons-register'
 
-
+import { ref } from 'vue'
 import App from './App.vue'
 import { Env } from './config';
 

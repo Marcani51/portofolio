@@ -1,0 +1,16 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "types": "./src/index.ts",
+  "main": "./src/index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/server-renderer": "3.3.2",
+    "inquirer": "9.2.2",
+    "vue": "3.4.21",
+    "vue-router": "4.1.6"
+  }
+}
