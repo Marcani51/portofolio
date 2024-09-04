@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "esnext",
+      "target": "esnext",
+      "jsx": "preserve",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "noImplicitAny": false,
+    },
+    "include": ["src/**/**/*.ts", "src/**/**/*.d.ts", "src/**/**/*.vue", "tests/**/**/*.ts"]
+  }
+  
