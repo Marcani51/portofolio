@@ -6,10 +6,12 @@ import { definePlugin } from '../core'
 
 const routes = setupLayouts(generatedRoutes)
 const router = createRouter({
-  history: createWebHistory('/appsname/'),
+  history: createWebHistory(""),
   routes
 })
-
+console.log(routes)
+console.log(router)
+console.log("ROUTER VUE")
 const modules = import.meta.glob('../middlewares/*.ts', {
   eager: true
 })
