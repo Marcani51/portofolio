@@ -14,7 +14,6 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 import path from 'path'
 // https://vitejs.dev/config
 export default defineConfig({
-  base:'/appsname/',
   plugins: [
     // VueDevTools(),
     vue(),
