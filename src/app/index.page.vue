@@ -7,9 +7,12 @@
 </route>
 
 <script setup lang="ts">
+const router= useRouter()
 const data = ref('')
+// router.push("/success/")
 </script>
 <template>
+  <port-compt-home></port-compt-home>
   <!-- <div class="flex flex-col">
     <div>
       <port-compt-header></port-compt-header>
