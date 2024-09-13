@@ -1,9 +1,15 @@
-.slider{
-    @apply
-    pl-4
+@import './base.css';
+
+#app {
+  /* max-width: 1380px; */
+  margin: 0;
+  font-weight: normal;
 }
 
-.highlightText{
-    @apply
-    tesxt-[]
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
 }
+

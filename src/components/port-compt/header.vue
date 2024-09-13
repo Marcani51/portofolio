@@ -3,7 +3,7 @@
   
     <div class="px-[5rem] w-[inherit] bg-[#0a192f]">
       <div class="flex justify-between items-center text-white">
-        <div class="p-[10px]">LOGO</div>
+        <div class="p-[10px]"></div>
         <div class="flex flex-row gap-5 items-center">
           <div class="p-[10px]">About</div>
           <div class="p-[10px]">Experience</div>
